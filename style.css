@@ -1,3 +1,31 @@
-body {
-  background-color: purple;
+.columnDiv {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: white;
+  padding: 10px;
+  border: 5px solid black;
+}
+
+.containerDiv {
+  margin: auto;
+  width: 75%;
+  text-align: center;
+}
+
+.columns {
+  width: 350px;
+}
+
+#tasks {
+  background-color: red;
+}
+
+#inProgress {
+  background-color: orange;
+}
+
+#completed {
+  background-color: green;
 }
