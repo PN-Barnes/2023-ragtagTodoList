@@ -1,9 +1,8 @@
 .columnDiv {
   display: flex;
-  justify-content: space-evenly;
-  gap: 5px;
+  justify-content: space-around;
   background-color: white;
-  padding: 10px;
+  flex-wrap: wrap;
   border: 5px solid black;
 }
 
@@ -17,7 +16,7 @@ h1 {
 }
 
 .columns {
-  width: 400px;
+  width: 33%;
   color: white;
   font-size: xx-large;
 }
