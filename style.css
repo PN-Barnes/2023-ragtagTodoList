@@ -48,6 +48,20 @@ ul {
 
 li {
   box-shadow: 0px 5px 5px 0px grey;
-  border-radius: 15px;
-  margin: 20px 0px;
+  margin: 10px 0px;
+  font-size: large;
+  display: inline-block;
+  background-color: #ffee71;
+  width: 100px;
+  height: 100px;
+}
+
+li > h3 {
+  font-size: medium;
+  margin: 0px;
+  text-decoration: underline;
+}
+
+li > p {
+  font-size: small;
 }
