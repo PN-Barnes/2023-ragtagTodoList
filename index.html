@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>RagTag Todo List</title>
+    <title>RagTag Todo list</title>
   </head>
   <body>
     <div class="containerDiv">
-      <h1>Rag Tag Todo List</h1>
+      <h1>Rag Tag ToDo list</h1>
       <label for="newTaskInput" id="createTaskLabel" class="createTasks"
-        >Create Task:
+        >New Task:
       </label>
       <input
         type="text"
@@ -19,19 +19,24 @@
         id="newTaskInput"
         name="newTaskInput"
       />
+      <button type="submit">Create!</button>
       <div class="columnDiv">
         <div id="tasks" class="columns">
           <h2>Tasks</h2>
 
-          <ul id="taskList">
-            <li>Task Item 1</li>
-            <li>Task Item 2</li>
-            <li>Task Item 3</li>
+          <ul id="tasklist">
+            <li>item 1</li>
+            <li>
+              <p>Item 1</p>
+            </li>
+            <li>
+              <p>Item 1</p>
+            </li>
           </ul>
         </div>
         <div id="inProgress" class="columns">
           <h2>In Progress</h2>
-          <ul id="progressList">
+          <ul id="progresslist">
             <li>Task Item 1</li>
             <li>Task Item 2</li>
             <li>Task Item 3</li>
@@ -39,7 +44,7 @@
         </div>
         <div id="completed" class="columns">
           <h2>Completed</h2>
-          <ul id="completedList">
+          <ul id="completedlist">
             <li>Task Item 1</li>
             <li>Task Item 2</li>
             <li>Task Item 3</li>
